@@ -61,6 +61,10 @@
 }
 
 @media (max-width: 800px) {
+  .font-2-m {
+    font-size: 1.2rem;
+  }
+
   .font-1-xxl {
     font-size: 2rem;
   }
