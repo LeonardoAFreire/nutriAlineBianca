@@ -55,4 +55,9 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .botao {
+    font-size: 1.125rem;
+    padding: 15px 30px;
+  }
 }
