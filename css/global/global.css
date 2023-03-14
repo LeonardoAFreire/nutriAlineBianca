@@ -8,6 +8,11 @@ p {
   margin: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
 }

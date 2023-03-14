@@ -31,8 +31,8 @@
   }
 
   .conteudo {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
