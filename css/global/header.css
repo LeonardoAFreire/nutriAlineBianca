@@ -1,0 +1,132 @@
+.logo {
+  height: 160px;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  gap: 12px;
+}
+
+.header-menu a {
+  padding: 16px 0;
+  position: relative;
+  color: #4f3704;
+}
+
+.header-menu a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  color: #4f3704;
+  position: absolute;
+  margin-top: 4px;
+  background: #4f3704;
+  width: 0%;
+  transition: 0.3s;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .header-menu a::after {
+    display: none;
+  }
+  #nav button {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    right: 0;
+    background: #fff;
+    height: 0;
+    transition: 0.6s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .header-menu.ativo {
+    height: calc(100vh - 160px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  .header-menu a {
+    display: block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    color: #41421a;
+  }
+  .header-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+
+  #hamburguer {
+    display: block;
+    color: #41421a;
+    border-top: 2px solid;
+    width: 30px;
+  }
+
+  #hamburguer::after,
+  #hamburguer::before {
+    content: '';
+    width: 30px;
+    height: 2px;
+    display: block;
+    margin-top: 8px;
+    background-color: currentColor;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #nav.ativo #hamburguer {
+    border-top-color: transparent;
+  }
+
+  #nav.ativo #hamburguer::before {
+    transform: rotate(135deg);
+  }
+
+  #nav.ativo #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-menu {
+    justify-content: center;
+  }
+}

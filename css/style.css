@@ -1,0 +1,10 @@
+@import './global/global.css';
+@import './utility/components.css';
+
+/* Tipografia e Cores*/
+@import './utility/tipografia.css';
+@import './utility/cores.css';
+
+/* Conteudo Principal */
+@import './global/header.css';
+@import './home/main.css';
