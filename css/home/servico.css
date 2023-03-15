@@ -11,3 +11,14 @@
 .servico p {
   margin-bottom: 40px;
 }
+
+.servico .servico-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .servico .botao {
+    align-self: center;
+  }
+}
