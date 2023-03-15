@@ -3,6 +3,10 @@
   padding-bottom: 40px;
   background: #f5f5ea;
 }
+.servico {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .servico h2 {
   margin-bottom: 20px;

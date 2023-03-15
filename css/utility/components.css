@@ -1,8 +1,6 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   box-sizing: border-box;
 }
 
@@ -50,11 +48,6 @@
 }
 
 @media (max-width: 800px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .botao {
     font-size: 1.125rem;
     padding: 15px 30px;
