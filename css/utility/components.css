@@ -21,6 +21,10 @@
   animation: pulse 2s infinite;
 }
 
+.estilo {
+  color: #c79736;
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(207, 158, 57, 0.4);
