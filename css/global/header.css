@@ -75,8 +75,8 @@
     margin: 0 1rem;
     border-radius: 0;
     background: transparent;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-    color: #41421a;
+    border-bottom: 2px solid #8a671e;
+    color: #8a671e;
   }
   .header-menu a:hover {
     background-color: rgba(0, 0, 0, 0.1);
@@ -94,7 +94,7 @@
 
   #hamburguer {
     display: block;
-    color: #41421a;
+    color: #8a671e;
     border-top: 2px solid;
     width: 30px;
   }
