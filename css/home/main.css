@@ -39,3 +39,9 @@
     align-items: center;
   }
 }
+
+@media (max-width: 450px) {
+  .main img {
+    height: 400px;
+  }
+}
