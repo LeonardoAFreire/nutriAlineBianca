@@ -10,6 +10,7 @@
 
 .servico h2 {
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .texto-servico {
@@ -31,10 +32,11 @@
 }
 
 .cards li {
-  background: #f5f5dc;
+  background: #fdf5e6;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   max-width: 350px;
   border-radius: 8px;
+  height: 150px;
   padding: 16px 8px;
   display: flex;
   flex-direction: column;
