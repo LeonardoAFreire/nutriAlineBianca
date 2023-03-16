@@ -61,6 +61,10 @@
     height: 400px;
   }
 
+  .main .botao {
+    margin-top: 40px;
+  }
+
   .conteudo p {
     margin-bottom: 0;
   }
