@@ -38,6 +38,7 @@
   .main {
     padding-top: 10px;
     padding-right: 0;
+    padding-bottom: 0;
     grid-template-columns: 1fr;
   }
 
@@ -54,7 +55,6 @@
 @media (max-width: 450px) {
   .main {
     padding-right: 0;
-    padding-bottom: 0;
   }
   .main img {
     height: 400px;
