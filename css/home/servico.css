@@ -3,12 +3,50 @@
   padding-bottom: 40px;
   background: #f5f5ea;
 }
+
+.cards-contador li {
+  background: #fdf5e6;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 12px 24px;
+  min-height: 150px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.contador li {
+  font-size: 4.5rem;
+}
+
+.titulo-contador {
+  font-size: 1.5rem;
+}
+
+.contador ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.contador ul li {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.contador .titulo-contador {
+  text-align: center;
+}
+
 .servico {
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .servico h2 {
+  margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 700;
@@ -37,10 +75,10 @@
 .cards li {
   background: #fdf5e6;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  max-width: 350px;
   border-radius: 8px;
-  height: 150px;
-  padding: 16px 8px;
+  padding: 16px;
+  min-height: 150px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

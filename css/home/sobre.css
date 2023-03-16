@@ -30,28 +30,6 @@
   justify-content: space-evenly;
 }
 
-.contador {
-  margin-top: 60px;
-}
-.contador ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.contador li {
-  text-align: center;
-  font-weight: bold;
-}
-
-.contador .numero {
-  font-size: 4rem;
-}
-
-.titulo-contador {
-  display: block;
-  font-size: 1.125rem;
-}
-
 .sobre h3 {
   font-weight: 700;
   margin-top: 40px;
@@ -60,11 +38,4 @@
 
 .sobre a {
   text-align: center;
-}
-
-@media (max-width: 768px) {
-  .contador ul {
-    flex-direction: column;
-    gap: 20px;
-  }
 }
