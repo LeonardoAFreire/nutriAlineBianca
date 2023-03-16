@@ -46,7 +46,8 @@
   font-size: 4rem;
 }
 
-.contador h4 {
+.titulo-contador {
+  display: block;
   font-size: 1.125rem;
 }
 

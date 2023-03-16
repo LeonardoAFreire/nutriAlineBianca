@@ -4,6 +4,14 @@
   "background-color": "#8a671e",
   "categories": ["business"],
   "theme_color": "#8a671e",
-  "icons": [{}],
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./img/icone1.svg",
+      "sizes": "200x160",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
   "start_url": "/index.html"
 }
