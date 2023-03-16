@@ -1,0 +1,58 @@
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao a {
+  margin-top: 60px;
+  align-self: center;
+}
+
+.sobre {
+  padding-top: 40px;
+  padding-bottom: 160px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sobre h2 {
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  margin-bottom: 20px;
+  max-width: 75ch;
+}
+
+.sobre .case {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contador {
+  margin-top: 60px;
+}
+.contador ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contador li {
+  text-align: center;
+  font-weight: bold;
+}
+
+.contador .numero {
+  font-size: 4rem;
+}
+
+.contador h4 {
+  font-size: 1.125rem;
+}
+
+@media (max-width: 768px) {
+  .contador ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

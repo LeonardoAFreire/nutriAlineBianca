@@ -1,6 +1,5 @@
 export default function initScrollSuave() {
   const linksInternos = document.querySelectorAll('[data="menu"] a[href^="#"]');
-
   if (linksInternos.length) {
     function scrollToSection(event) {
       event.preventDefault();
