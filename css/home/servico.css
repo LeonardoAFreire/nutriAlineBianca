@@ -10,10 +10,12 @@
 
 .servico h2 {
   margin-bottom: 20px;
+  text-align: center;
   font-weight: 700;
 }
 
 .texto-servico {
+  text-align: center;
   margin-bottom: 40px;
   max-width: 75ch;
 }
