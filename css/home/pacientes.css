@@ -9,7 +9,10 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.texto-pacientes {
+  border-bottom: 1px solid #cf9e39;
+  padding-bottom: 20px;
+}
 .pacientes h2,
 p {
   text-align: center;
@@ -34,4 +37,23 @@ p {
 
 .pacientes a {
   place-self: center;
+}
+
+.label {
+  margin-top: 40px;
+  background: #cf9e39;
+  place-self: center;
+  padding: 6px 12px;
+  color: #fff;
+  border-radius: 4px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-social {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
