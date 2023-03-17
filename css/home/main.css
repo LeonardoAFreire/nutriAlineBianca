@@ -25,9 +25,11 @@
 
 .conteudo h1 {
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .conteudo p {
+  text-align: left;
   margin-bottom: 40px;
 }
 
@@ -53,6 +55,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .conteudo p,
+  .conteudo h1 {
+    text-align: center;
   }
 }
 
