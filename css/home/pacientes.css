@@ -4,6 +4,8 @@
   background: #f5f5ea;
 }
 .pacientes {
+  display: flex;
+  flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -15,4 +17,21 @@ p {
 
 .pacientes h2 {
   margin-bottom: 20px;
+}
+
+.prova-social {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.prova-social li img {
+  max-width: 100%;
+}
+
+.pacientes a {
+  place-self: center;
 }

@@ -9,6 +9,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 body {
   margin: 0;
   max-width: 100%;
