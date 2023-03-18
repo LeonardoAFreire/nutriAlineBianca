@@ -44,6 +44,7 @@ p {
   background: linear-gradient(62deg, #8a671e 0%, #cf9e39 100%);
   place-self: center;
   padding: 6px 12px;
+  box-shadow: 2px 2px 4px rgba(207, 158, 57, 0.4);
   color: #fff;
   border-radius: 4px;
   letter-spacing: 0.1rem;
