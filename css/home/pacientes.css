@@ -10,7 +10,7 @@
   padding-right: 20px;
 }
 .texto-pacientes {
-  border-bottom: 1px solid #cf9e39;
+  border-bottom: 1px solid #e8ae35;
   padding-bottom: 20px;
 }
 .pacientes h2,
@@ -41,7 +41,7 @@ p {
 
 .label {
   margin-top: 40px;
-  background: linear-gradient(62deg, #8a671e 0%, #cf9e39 100%);
+  background: linear-gradient(62deg, #8a671e 0%, #e8ae35 100%);
   place-self: center;
   padding: 6px 12px;
   box-shadow: 2px 2px 4px rgba(207, 158, 57, 0.4);
