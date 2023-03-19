@@ -34,3 +34,26 @@ a {
 strong {
   color: #8a671e;
 }
+
+.js .anima-left[data-anime='scroll'] {
+  opacity: 0;
+  transform: translate3d(-200px, 0, 0);
+  transition: 0.9s;
+}
+
+.js .anima-right[data-anime='scroll'] {
+  opacity: 0;
+  transform: translate3d(200px, 0, 0);
+  transition: 0.9s;
+}
+
+.js .anima-up[data-anime='scroll'] {
+  opacity: 0;
+  transform: translate3d(0, 200px, 0);
+  transition: 0.9s;
+}
+
+.js [data-anime='scroll'].ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
