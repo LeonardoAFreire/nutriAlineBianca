@@ -113,6 +113,6 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   padding: 0.5rem;
-  background: #ee5544;
+  background: linear-gradient(62deg, #c73f30 0%, #e54 100%);
   border-radius: 0px 0px 0px 4px;
 }
