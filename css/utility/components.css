@@ -31,7 +31,7 @@
   gap: 16px;
 }
 
-.cards li {
+.cards .item {
   background: #fdf5e6;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -45,7 +45,7 @@
   gap: 12px;
 }
 
-.cards li p {
+.cards .item p {
   text-align: center;
 }
 

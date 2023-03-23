@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 
-.sobre p {
+.texto-sobre {
   margin-bottom: 20px;
   max-width: 75ch;
 }
@@ -41,4 +41,20 @@
 
 .cards {
   margin-bottom: 40px;
+}
+
+.card-beneficios li {
+  font-size: 1.125rem;
+  color: var(--cor-p1);
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Old Standard TT', sans-serif;
+}
+
+.card-beneficios li + li {
+  margin-top: 6px;
+}
+
+.estilo-cards {
+  font-family: Arial, Helvetica, sans-serif;
 }
