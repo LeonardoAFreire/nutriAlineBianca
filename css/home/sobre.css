@@ -58,3 +58,10 @@
 .estilo-cards {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.card-especial {
+  background: linear-gradient(62deg, #8a671e 0%, #e8ae35 100%);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #fff;
+}
