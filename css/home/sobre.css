@@ -43,6 +43,10 @@
   margin-bottom: 40px;
 }
 
+.cards .item {
+  box-sizing: border-box;
+}
+
 .card-beneficios {
   margin-top: 10px;
 }
@@ -50,13 +54,26 @@
 .card-beneficios li {
   font-size: 1.125rem;
   color: var(--cor-p1);
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   font-family: 'Old Standard TT', sans-serif;
 }
 
 .card-beneficios li + li {
   margin-top: 6px;
+}
+
+.card-beneficios li {
+  gap: 4px;
+}
+
+.card-beneficios li::before {
+  content: '';
+  background-image: url(../../img/lista.svg);
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 9px;
+  display: inline-block;
 }
 
 .estilo-cards {
@@ -72,4 +89,16 @@
 
 .cards h3 {
   font-weight: bold;
+}
+
+.cards .item {
+  min-height: 280px;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+@media (max-width: 700px) {
+  .cards .item {
+    font-size: 0.875rem;
+  }
 }
