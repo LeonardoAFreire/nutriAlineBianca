@@ -43,10 +43,14 @@
   margin-bottom: 40px;
 }
 
+.card-beneficios {
+  margin-top: 10px;
+}
+
 .card-beneficios li {
   font-size: 1.125rem;
   color: var(--cor-p1);
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   font-family: 'Old Standard TT', sans-serif;
 }
@@ -60,8 +64,12 @@
 }
 
 .card-especial {
-  background: linear-gradient(-2deg, #8a671e 0%, #e8ae35 100%);
+  background: #e8ae35;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   color: #fff;
+}
+
+.cards h3 {
+  font-weight: bold;
 }
