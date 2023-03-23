@@ -85,6 +85,7 @@
   background: #e8ae35;
   padding: 0.5rem 1rem;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
   border-radius: 4px;
   color: #fff;
 }
@@ -111,9 +112,6 @@
 }
 
 @media (max-width: 700px) {
-  .cards .item {
-    font-size: 0.875rem;
-  }
 }
 
 .preco {
