@@ -13,7 +13,6 @@
   max-width: 100%;
   width: 100%;
   display: block;
-  max-height: 960px;
   object-fit: cover;
 }
 
@@ -33,19 +32,17 @@
   margin-bottom: 40px;
 }
 
-@media (max-width: 900px) {
-  .main img {
-    object-position: center -40px;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .main {
     padding-top: 10px;
     padding-right: 0;
     padding-bottom: 0;
     grid-template-columns: 1fr;
     text-align: center;
+  }
+  .main img {
+    height: 800px;
+    object-position: center -220px;
   }
 
   .conteudo {
@@ -69,6 +66,7 @@
   }
   .main img {
     height: 400px;
+    object-position: initial;
   }
 
   .main .botao {
