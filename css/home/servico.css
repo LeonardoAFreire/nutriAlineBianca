@@ -30,6 +30,7 @@
   text-align: center;
   margin-bottom: 8px;
   min-width: 300px;
+  box-sizing: border-box;
 }
 
 .contador li {

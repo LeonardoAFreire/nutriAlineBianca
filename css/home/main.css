@@ -11,9 +11,9 @@
 
 .main img {
   max-width: 100%;
+  height: 100%;
   width: 100%;
   display: block;
-  object-fit: cover;
 }
 
 .conteudo {
@@ -40,9 +40,10 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+
   .main img {
-    height: 800px;
-    object-position: center -220px;
+    max-height: 800px;
+    object-fit: cover;
   }
 
   .conteudo {
@@ -66,7 +67,7 @@
   }
   .main img {
     height: 400px;
-    object-position: initial;
+    object-fit: cover;
   }
 
   .main .botao {
