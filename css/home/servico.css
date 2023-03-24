@@ -4,6 +4,13 @@
   background: #f5f5ea;
 }
 
+.cards img {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #cf9e39;
+  border-radius: 50%;
+}
+
 .contador ul {
   display: flex;
   justify-content: center;

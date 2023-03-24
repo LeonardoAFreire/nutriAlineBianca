@@ -32,7 +32,11 @@ p {
 }
 
 .prova-social li img {
-  max-width: 100%;
+  width: 500px;
+  height: 500px;
+  display: block;
+  border: 2px solid #e8ae35;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .pacientes a {
@@ -57,4 +61,12 @@ p {
   margin-top: 20px;
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .prova-social li img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 }
