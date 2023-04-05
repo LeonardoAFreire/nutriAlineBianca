@@ -1,0 +1,49 @@
+.quem-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quem-sou {
+  padding-top: 40px;
+}
+
+.quem-sou h1 {
+  text-align: center;
+}
+
+.quem-texto p {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.quem-img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.quem-img img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 960px) {
+  .quem-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .quem-texto {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .quem-texto p {
+    text-align: center;
+    padding-right: 0px;
+  }
+}
