@@ -2,6 +2,7 @@ footer {
   padding: 2rem;
   color: #8a671e;
   display: flex;
+  background-color: #f5f5ea;
   justify-content: center;
   align-items: center;
 }
