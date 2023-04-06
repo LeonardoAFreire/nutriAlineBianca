@@ -24,11 +24,9 @@
 }
 
 .cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
+  gap: 20px;
 }
 
 .cards .item {
@@ -85,7 +83,11 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
   .botao {
     font-size: 1.125rem;
   }

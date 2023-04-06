@@ -81,8 +81,6 @@
 
 @media (max-width: 600px) {
   .cards {
-    flex-direction: column;
-    gap: 10px;
     margin-bottom: 40px;
   }
 

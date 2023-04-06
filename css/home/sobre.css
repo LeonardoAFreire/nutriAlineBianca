@@ -126,3 +126,16 @@
   background: linear-gradient(62deg, #c73f30 0%, #e54 100%);
   border-radius: 0px 0px 0px 4px;
 }
+
+.melhor {
+  position: absolute;
+  top: -5%;
+  left: 0px;
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  background: linear-gradient(62deg, #ffed00, #ff8c00);
+  border-radius: 2px;
+}
