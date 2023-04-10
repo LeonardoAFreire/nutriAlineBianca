@@ -15,7 +15,7 @@ export default function initAnimaNumeros() {
             numero.innerText = total;
             clearInterval(timer);
           }
-        }, 40);
+        }, 30);
         console.log(total);
       });
     }
