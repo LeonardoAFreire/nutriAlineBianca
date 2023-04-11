@@ -82,7 +82,7 @@
 }
 
 .card-especial {
-  background: #e8ae35;
+  background: linear-gradient(to right, #ff9900, #febe10);
   padding: 0.5rem 1rem;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1rem;
