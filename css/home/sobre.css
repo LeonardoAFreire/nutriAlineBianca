@@ -70,7 +70,7 @@
 
 .card-beneficios li::before {
   content: '';
-  background-image: url(../../img/lista.svg);
+  background-image: url('../../img/lista.svg');
   background-repeat: no-repeat;
   width: 13px;
   height: 9px;
