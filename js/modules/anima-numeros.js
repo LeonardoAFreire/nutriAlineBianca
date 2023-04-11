@@ -16,7 +16,6 @@ export default function initAnimaNumeros() {
             clearInterval(timer);
           }
         }, 30);
-        console.log(total);
       });
     }
 
