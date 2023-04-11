@@ -42,8 +42,8 @@
   }
 
   .main img {
-    max-height: 800px;
     object-fit: cover;
+    max-height: 800px;
   }
 
   .conteudo {
@@ -68,6 +68,7 @@
   .main img {
     height: 400px;
     object-fit: cover;
+    object-position: center -80px;
   }
 
   .main .botao {
