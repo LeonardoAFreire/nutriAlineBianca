@@ -2,6 +2,10 @@
   padding: 40px 20px 40px 20px;
 }
 
+.main h2 {
+  text-align: center;
+}
+
 .foto-principal {
   max-width: 100%;
   max-height: 800px;
