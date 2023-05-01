@@ -1,3 +1,7 @@
+.main {
+  padding: 40px 20px 40px 20px;
+}
+
 .foto-principal {
   max-width: 100%;
   max-height: 800px;
@@ -7,9 +11,6 @@
 
 .conteudo {
   display: grid;
-  padding-top: 40px;
-  padding-right: 10px;
-  padding-left: 20px;
 }
 
 .conteudo h1 {
