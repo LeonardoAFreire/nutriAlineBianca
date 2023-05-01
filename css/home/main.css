@@ -11,7 +11,7 @@
 
 .conteudo {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .conteudo h1 {
@@ -36,11 +36,6 @@
     text-align: center;
   }
 
-  .main img {
-    object-fit: cover;
-    max-height: 800px;
-  }
-
   .conteudo {
     padding-top: 0;
     padding-right: 20px;
@@ -61,11 +56,7 @@
     padding-right: 0;
   }
   .main img {
-    max-height: 450px;
-  }
-
-  .main .botao {
-    margin-top: 40px;
+    height: 450px;
   }
 
   .conteudo p {
