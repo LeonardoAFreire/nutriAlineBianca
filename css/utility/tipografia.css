@@ -88,6 +88,10 @@
   .font-2-xl {
     font-size: 1.5rem;
   }
+
+  .texto-maior-main {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 385px) {

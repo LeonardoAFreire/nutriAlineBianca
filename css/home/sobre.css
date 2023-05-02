@@ -68,6 +68,11 @@
   gap: 4px;
 }
 
+.text-chamada-sobre {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .card-beneficios li::before {
   content: '';
   background-image: url('../../img/lista.svg');

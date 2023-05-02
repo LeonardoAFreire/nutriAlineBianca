@@ -35,6 +35,15 @@ strong {
   color: #8a671e;
 }
 
+.whats-icon {
+  height: 80px;
+  width: 120px;
+  position: fixed;
+  bottom: 45px;
+  right: -20px;
+  z-index: 99999;
+}
+
 .js .anima-left[data-anime='scroll'] {
   opacity: 0;
   transform: translate3d(-200px, 0, 0);
