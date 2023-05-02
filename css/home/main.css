@@ -21,10 +21,12 @@
 .conteudo h1 {
   text-align: center;
   color: #fff;
+  font-family: 'Montserrat';
 }
 
 .marca-texto {
   background: #8a671e;
+  color: #fff;
 }
 
 .conteudo p {
