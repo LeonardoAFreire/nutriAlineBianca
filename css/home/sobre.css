@@ -57,7 +57,7 @@
   color: var(--cor-p1);
   text-align: center;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Merriweather', serif;
 }
 
 .card-beneficios li + li {
