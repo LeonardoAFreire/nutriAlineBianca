@@ -40,6 +40,10 @@
   place-self: center;
 }
 
+.marca-texto-vermelho {
+  color: #e54;
+}
+
 @media (max-width: 960px) {
   .main {
     padding-top: 10px;
