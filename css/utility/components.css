@@ -29,6 +29,11 @@
   gap: 20px;
 }
 
+.cards li:last-child {
+  grid-column: 1 / -1;
+  place-self: center;
+}
+
 .cards .item {
   background: #fdf5e6;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
