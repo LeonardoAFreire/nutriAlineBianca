@@ -4,7 +4,6 @@
 
 .main h2 {
   text-align: center;
-  font-weight: bold;
 }
 
 .foto-principal {
@@ -21,6 +20,11 @@
 
 .conteudo h1 {
   text-align: center;
+  color: #fff;
+}
+
+.marca-texto {
+  background: #8a671e;
 }
 
 .conteudo p {
