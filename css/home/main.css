@@ -21,12 +21,14 @@
 .conteudo h1 {
   text-align: center;
   color: #fff;
-  font-family: 'Montserrat';
+  font-family: 'Merriweather';
 }
 
 .marca-texto {
   background: #8a671e;
   color: #fff;
+  padding: 0.5px;
+  font-family: 'Merriweather';
 }
 
 .conteudo p {
